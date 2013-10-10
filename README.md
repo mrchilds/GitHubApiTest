@@ -1,4 +1,4 @@
-GitHubApiTest
+Testing
 =============
 
-Repo to test API
+Playing with Github and JIRA apis
