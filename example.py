@@ -37,7 +37,7 @@ class GitHubApi:
         return pull_request_list
 
     def get_pull_request_status(self, label=None):
-        """Returns"""
+        """Returns string containing status of pull requests"""
         pull_requests = self.get_matching_pull_requests(label)
         pull_requests_information = "Pull Requests - %s\n\n" % label
         for pr in pull_requests:
